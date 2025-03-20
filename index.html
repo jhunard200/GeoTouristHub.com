@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Spot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/design.css" rel="stylesheet">
+      <style>
+        .carousel-inner img {
+            object-fit: cover; /* Ensures the image covers the area without stretching */
+            height: 250px; /* Set a fixed height for all images */
+            width: 100%; /* Ensure the image spans the entire width */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">GeoTourist Hub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="content">
+        <header class="text-white text-center py-5" id="home" style="background: linear-gradient(to right, #4CAF50, #FFA500, #FFD700);">
+            <div class="container">
+                <h1>Welcome to Explore Paradise</h1>
+                <p>Discover the most beautiful places on Earth</p>
+            </div>
+        </header>
+
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel"  data-bs-interval="3000">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/bayombong/bantian.jpg" class="d-block w-100" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+              <img src="img/bayombong/sulinek.jpg" class="d-block w-100" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+              <img src="img/bayombong/casat.jpg" class="d-block w-100" alt="Slide 3">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <section class="container py-5" id="intro">
+            <h2 class="text-center mb-4">Introduction</h2>
+            <p>The Province of Nueva Vizcaya, which was named after the people living in the coast of Mar de Vizcaine in Spain, was a part of the vast “Territorio de Missionares” of the Spanish-controlled government of Cagayan. The territory covered the eastern half of Northern Luzon, from Nueva Ecija to Aparri, including the Batanes Islands.</p>
+            <p>On May 24, 1839, Governor-General Luis Lardizabal, upon the advice of the Alcalde Mayor of Cagayan, issued an order making Nueva Vizcaya a separate politico-military province. The King of Spain through a royal decree approved the order on April 10, 1841. Governor Pedro Menchaca was the first appointed politico-military governor of the new province. However, the Spanish sovereignty ceased upon the arrival of the Philippine revolutionary forces in Bayombong on August 1898.</p>
+        </section>
+
+        <section class="container py-5" id="gallery">
+            <h2 class="text-center mb-4">Municipalities</h2>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Bayombong</h5>
+                            <p class="card-text">Explore breathtaking landscapes and scenic views.</p>
+                            <a href="bayombong.html">Visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Bambang</h5>
+                            <p class="card-text">Discover rich history and cultural heritage.</p>
+                              <a href="bambang.html">Visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Kasibu</h5>
+                            <p class="card-text">Experience thrilling adventures and outdoor fun.</p>
+                              <a href="kasibu.html">Visit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="footer text-white text-center py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Programmers</h5>
+                    <p> Lovely Mae D. Padapat</p>
+                    <p> Alejandro A. Labasan Jr.</p>
+                    <p> Ara Mae R. Jallorina</p>
+                </div>
+                <div class="col-md-4 text-md-center">
+                    <h5>Email</h5>
+                    <p>padapatlovelymae@gmail.com</p>
+                    <p>alejandrojrlabasan@gmail.com</p>
+                    <p>eamarajallorina@gmail.com</p>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <h5>Contact</h5>
+                    <p>09067195165</p>
+                    <p>09605775313</p>
+                    <p>09261183821</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

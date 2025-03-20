@@ -1,0 +1,17 @@
+  body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background: url('img/capitol.jpg') no-repeat center center/cover;
+        }
+        .content {
+            flex: 1;
+        }
+        .navbar, .footer {
+            background: linear-gradient(to right, #25cb2c, #856c40, #e5ce51);
+        }
+        .footer {
+            position: sticky;
+            bottom: 0;
+            width: 100%;
+        }
